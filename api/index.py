@@ -5,7 +5,7 @@ import requests
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         # GitHub'daki ham JSON dosyanın linki
-        GITHUB_JSON = "https://raw.githubusercontent.com/denizstudios/TurkishScript-Server/main/pcg.json"
+        GITHUB_JSON = "https://raw.githubusercontent.com/denizstudiosgit/TurkishScript-Server/main/pcg.json"
         
         try:
             r = requests.get(GITHUB_JSON)
